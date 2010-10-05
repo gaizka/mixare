@@ -64,7 +64,7 @@ public class DataSource {
 			break;
 			
 			case OWNURL:
-				ret = MixListView.customizedURL + "?"+ "latitude=" + Double.toString(lat) + "&longitude=" + Double.toString(lon) + "&altitude=" + Double.toString(alt);
+				ret = MixListView.customizedURL + "?"+ "latitude=" + Double.toString(lat) + "&longitude=" + Double.toString(lon) + "&altitude=" + Double.toString(alt) + "&radius=" + Double.toString(radius);
 			break;
 			
 		}
